@@ -1,0 +1,521 @@
+/*===========TABLE OF CONTENTS============*/
+/*
+1. GENERAL STYLES
+2. HOME PAGE STYLES
+3. ABOUT PAGE STYLES
+4. LATEST RESEARCH PAGE STYLES
+5. FIND US PAGE STYLES
+6. FACILITIES PAGE STYLES
+7. PEOPLE PAGE STYLES
+8. PUBLICATIONS PAGE STYLES
+9. NEWS PAGE STYLES
+*/
+
+/*===========SECTION 1: GENERAL STYLES============*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 4.2rem;
+  font-family: "Arial Narrow",Arial,sans-serif;
+  background-color: #f8f9fa;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:focus {
+  color: rgba(0,0,0,0.5);
+  font-size: 2vh;
+}
+
+a:hover, a:active {
+  color: rgba(0,0,0,0.8);
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+p {
+  color: rgba(0,0,0,0.8);
+  font-size: 2vh;
+  /*color: #0a67ad;*/
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left {
+  display: block;
+  float: left;
+}
+.right {
+  display: block;
+  float: right;
+}
+.section {
+  margin: 1rem 0;
+  padding: 1rem
+}
+.footer {
+  display: block;
+  min-height: calc(20vh);
+  width: 100%;
+  bottom: 0;
+  padding-top: 1rem;
+  text-align: right;
+  vertical-align: middle;
+}
+.footer h7{
+  float: right;
+  padding: 1rem;
+}
+.section-content {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.page-content {
+  background-color: #f8f9fa;
+  height: 100%;
+  width: 100%;
+}
+.page-section {
+  min-height: calc(100vh - 4.2rem);
+  width: 100%;
+}
+
+}
+.section-title {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  width: 100%;
+}
+.section-title h3{
+  color: rgba(0,0,0,0.65);
+  font-size: 4vh;
+}
+.section-subtitle {
+  margin-right: 2rem;
+  padding-top: 8px;
+  color: rgba(0,0,0,0.65);
+}
+.content-subtitle {
+  display: block;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  width: 100%;
+  color:  rgba(0,0,0,0.65);
+}
+.half-section {
+  padding: 1rem;
+  width: 48%;
+  min-height: calc(100% - 4.2rem);
+  text-align: justify;
+  padding: 1rem 2rem;
+}
+.half-section img {
+  max-height: 70vh;
+  width: 50%;
+}
+.third-section {
+  padding: 1rem;
+  width: 30%;
+  min-height: calc(100% - 4.2rem);
+  margin: auto;
+  margin-top: 0;
+}
+.overlaycont {
+  position: relative;
+  width: 100%;
+  left: inherit;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+  overflow: hidden;
+  width: 70%;
+  height: 0;
+  transition: 0.5s ease;
+  border-radius: 4px;
+}
+.overlaycont:hover .overlay{
+  display: block;
+  height: 75%;
+}
+.overlay-text {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay-text h5{
+  font-size: 3vh;
+}
+.overlay-text h6{
+  font-style: italic;
+  font-size: 2vh;
+}
+
+/*===========SECTION 2: HOME PAGE STYLES============*/
+.home-section-title {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  margin-top: 4.2rem;
+  width: 100%;
+}
+.home-section-title h3{
+  color: rgba(0,0,0,0.65);
+  font-size: 4vh;
+}
+#home-content.page-section {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  background-image: url("../images/home-background.jpg");
+  background-color: rgba(255,255,255,0.2);
+  background-blend-mode: darken;
+  background-size: cover;
+}
+#home-content img{
+  width: 45%;
+  min-width: 100px;
+  padding-top: 25%;
+}
+#home-content h2{
+  padding-top: 1rem;
+  font-size:5vh;
+  color: #f8f9fa;
+  text-shadow: 2px 2px #000;
+}
+#home-logo.section {
+  text-align: center;
+  padding: 6rem;
+  letter-spacing: 0.075rem;
+  line-height: 1.5;
+}
+#latest-news.section {
+  padding: 8rem;
+}
+#latest-news h4{
+  color: #f8f9fa;
+  font-size: 4vh;
+  text-shadow: 2px 2px #000;
+  padding-top: 15%;
+}
+/*===Scroll Icon Code Starts Here===*/
+@-webkit-keyframes scroll-down-anim {
+    0%{ bottom: 4px; }
+    50%{ bottom: 9px; }
+    100%{ bottom: 4px; }
+}
+@-moz-keyframes scroll-down-anim {
+    0%{ bottom: 4px; }
+    50%{ bottom: 9px; }
+    100%{ bottom: 4px; }
+}
+@-o-keyframes scroll-down-anim {
+    0%{ bottom: 4px; }
+    50%{ bottom: 9px; }
+    100%{ bottom: 4px; }
+}
+@keyframes scroll-down-anim {
+    0%{ bottom: 4px; }
+    50%{ bottom: 9px; }
+    100%{ bottom: 4px; }
+}
+
+.scroll-down{
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.scroll-down:hover:before{
+    opacity: .6;
+}
+.scroll-down-icon{
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    color: #fff;
+    font-size: 15px;
+
+    -webkit-animation: scroll-down-anim 1s infinite;
+    -moz-animation: scroll-down-anim 1s infinite;
+    -o-animation: scroll-down-anim 1s infinite;
+    animation: scroll-down-anim 1s infinite;
+    z-index: 2;
+}
+
+/*===End of Scroll Icon Code===*/
+#homefooter {
+  margin-top: 9.5vh;
+}
+
+/*#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  margin: -50px 0 0 -50px;
+  border: 2px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 2px solid #000;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+*/
+
+.animate-bottom {
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 2s;
+  animation-name: animatebottom;
+  animation-duration: 2s;
+  transform: translate(0px,auto);
+}
+@-webkit-keyframes animatebottom {
+  0% { transform: translate(0px,100px); }
+  100% { transform: translate(0px,auto); }
+}
+
+/*#loadDiv {
+  display: none;
+}*/
+
+/*===========SECTION 3: ABOUT PAGE STYLES============*/
+#about.page-section {
+  width: 100%;
+  min-height: calc(100vh - 4.2rem);
+  background-size: cover;
+}
+#about-img.half-section img {
+  max-height: 70vh;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/*===========SECTION 4: LATEST RESEARCH PAGE STYLES============*/
+#latest-research.page-section {
+  width: 100%;
+  min-height: calc(100vh - 4.2rem);
+  background-size: cover;
+}
+
+.third-section img{
+  width: 70%;
+  height: 70vh;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/*===========SECTION 5: FIND US PAGE STYLES============*/
+#contact.third-section h5{
+  color: rgba(0,0,0,0.65);
+}
+#contact.page-section .section-content {
+  min-height: calc(46vh - 4.2rem);
+  padding-left: 2rem;
+}
+#dummymap {
+  visibility: hidden;
+  height: 0;
+}
+#googlemap {
+  display: block;
+  width: 100%;
+  height: calc(46vh - 4.2rem);
+}
+/*===========SECTION 6: FACILITIES PAGE STYLES============*/
+#gas h4 {
+  text-align: center;
+  color: #000;
+}
+#gas {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+#gas-carousel.carousel {
+  margin: 1rem auto;
+  object-fit: cover;
+  overflow: hidden;
+  width: 60vh;
+  height: 40vh;
+  text-align: center;
+  background-color: grey;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+#gas-carousel.carousel img {
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+}
+#liquid h4 {
+  text-align: center;
+  color: #000;
+}
+#liquid-carousel.carousel {
+  margin: 1rem auto;
+  object-fit: cover;
+  overflow: hidden;
+  width: 60vh;
+  height: 40vh;
+  text-align: center;
+  background-color: grey;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+#liquid-carousel.carousel img {
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+}
+.facilities-list {
+  margin-left: 7.5vw;
+}
+.toplevel ul {
+  text-align: left;
+  width: 80%;
+}
+/*===========SECTION 7: PEOPLE PAGE STYLES============*/
+.modaltop-img {
+  height: 200px;
+  padding-bottom: 5px;
+}
+.modalbottom-img {
+  height: 150px;
+}
+
+/*===========SECTION 8: PUBLICATIONS PAGE STYLES============*/
+.section-table {
+  display: block;
+}
+table {
+  /*border: 1px solid #ccc;*/
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  color: rgba(0,0,0,0.8);
+}
+
+table tr {
+  /*border: 1px solid #ddd;*/
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: justify;
+}
+
+tr th:nth-child(1),td:nth-child(1) {
+   text-align: center;
+   vertical-align: top;
+}
+
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table td {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+/*===========SECTION 9: NEWS PAGE STYLES============*/
+.news-img {
+  margin-top: 1rem;
+  background-color: white;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
