@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 70px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left {
+  display: block;
+  float: left;
+}
+.right {
+  display: block;
+  float: right;
+}
+.page-section {
+  display: block;
+}
+.nav-item {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+#home-content div{
+  background-color: red;
+  height: 100vh;
+  width: 100vw;
+  /*background-image: url("../images/home-background.jpg");*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hirace-logo.container {
+  float: left;
+  width: 67%;
+  margin-top: 40pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#hirace-logo h2 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  padding: 20pt;
+}
+#latest-news.container {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  float: right;
+  width: 30%;
+  height: 200px;
+  margin-top: 40pt;
+  margin-right: 0px;
+}
+#about-section.page-section{
+  padding-top: 170px;
+}
+
+ul#recentpub-list li{
+  display: inline;
+}
+
+.page-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10vw 10vw;
+}
+.section-title {
+    margin-bottom: 15px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    padding: 10px 0;
+}
+.section-heading {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.3;
+}
+.section-line{
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+    background: #111;
+}
+.section-text{
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.7;
+}
+.section-sidehead{
+    margin-top: 7px;
+    color: #999;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+    text-decoration: none;
+    float: right;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+@-webkit-keyframes scroll-down-anim {
+    0%{ bottom: 2px; }
+    50%{ bottom: 7px; }
+    100%{ bottom: 2px; }
+}
+@-moz-keyframes scroll-down-anim {
+    0%{ bottom: 2px; }
+    50%{ bottom: 7px; }
+    100%{ bottom: 2px; }
+}
+@-o-keyframes scroll-down-anim {
+    0%{ bottom: 2px; }
+    50%{ bottom: 7px; }
+    100%{ bottom: 2px; }
+}
+@keyframes scroll-down-anim {
+    0%{ bottom: 2px; }
+    50%{ bottom: 7px; }
+    100%{ bottom: 2px; }
+}
+
+.scroll-down{
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.scroll-down:hover:before{
+    opacity: .6;
+}
+.scroll-down-icon{
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    color: #111;
+    font-size: 15px;
+
+    -webkit-animation: scroll-down-anim 1s infinite;
+    -moz-animation: scroll-down-anim 1s infinite;
+    -o-animation: scroll-down-anim 1s infinite;
+    animation: scroll-down-anim 1s infinite;
+    z-index: 2;
+}
