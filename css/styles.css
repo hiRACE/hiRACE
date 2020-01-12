@@ -25,15 +25,19 @@ a {
   outline: none;
   text-decoration: none;
 }
-
-a:link, a:visited, a:focus {
+a:link, a:visited, a:focus  {
   color: rgba(0,0,0,0.5);
+}
+a:link, a:visited, a:focus, a:not(nav-item) {
   font-size: 2vh;
 }
 
 a:hover, a:active {
   color: rgba(0,0,0,0.8);
   text-decoration: none;
+}
+
+a:hover, a:active, a:not(nav-item) {
   font-size: 2vh;
 }
 .nav-item a{
