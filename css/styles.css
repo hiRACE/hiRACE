@@ -366,7 +366,7 @@ p {
 /*===========SECTION 6: FACILITIES PAGE STYLES============*/
 #gas h4 {
   text-align: center;
-  color: #000;
+  color: rgba(0,0,0,0.8);
 }
 #gas {
   border-right: 1px solid rgba(0, 0, 0, 0.3);
@@ -389,7 +389,7 @@ p {
 }
 #liquid h4 {
   text-align: center;
-  color: #000;
+  color: rgba(0,0,0,0.8);
 }
 #liquid-carousel.carousel {
   margin: 1rem auto;
