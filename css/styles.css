@@ -440,7 +440,7 @@ table {
   border-collapse: collapse;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100%; 
   table-layout: fixed;
   color: rgba(0,0,0,0.8);
 }
