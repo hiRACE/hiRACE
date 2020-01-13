@@ -201,7 +201,7 @@ p {
 #home-content img{
   width: 45%;
   min-width: 100px;
-  padding-top: 25%;
+  padding-top: 10%;
 }
 #home-content h2{
   padding-top: 1rem;
@@ -222,7 +222,7 @@ p {
   color: #f8f9fa;
   font-size: 4vh;
   text-shadow: 2px 2px #000;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 /*===Scroll Icon Code Starts Here===*/
 @-webkit-keyframes scroll-down-anim {
