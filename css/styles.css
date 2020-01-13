@@ -413,7 +413,7 @@ p {
   object-fit: cover;
   overflow: hidden;
   width: 25vw;
-  height: 15vw;
+  height: 15vw; 
   text-align: center;
   background-color: grey;
   border: 1px solid #ddd;
