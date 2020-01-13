@@ -29,7 +29,7 @@ a:link, a:visited, a:focus  {
   color: rgba(0,0,0,0.5);
 }
 a:link, a:visited, a:focus, a:not(nav-item) {
-  font-size: 2vh;
+  font-size: 1vw;
 }
 
 a:hover, a:active {
@@ -38,7 +38,7 @@ a:hover, a:active {
 }
 
 a:hover, a:active, a:not(nav-item) {
-  font-size: 2vh;
+  font-size: 1vw;
 }
 .nav-item a{
   font-size: 1rem; 
@@ -46,7 +46,7 @@ a:hover, a:active, a:not(nav-item) {
 
 p {
   color: rgba(0,0,0,0.8);
-  font-size: 2vh;
+  font-size: 1vw;
   /*color: #0a67ad;*/
 }
 
@@ -105,7 +105,7 @@ p {
 }
 .section-title h3{
   color: rgba(0,0,0,0.65);
-  font-size: 4vh;
+  font-size: 2vw;
 }
 .section-subtitle {
   margin-right: 2rem;
@@ -171,11 +171,11 @@ p {
   text-align: center;
 }
 .overlay-text h5{
-  font-size: 3vh;
+  font-size: 1.5vw;
 }
 .overlay-text h6{
   font-style: italic;
-  font-size: 2vh;
+  font-size: 1.25vw;
 }
 
 /*===========SECTION 2: HOME PAGE STYLES============*/
@@ -187,7 +187,7 @@ p {
 }
 .home-section-title h3{
   color: rgba(0,0,0,0.65);
-  font-size: 4vh;
+  font-size: 2vw;
 }
 #home-content.page-section {
   width: 100%;
