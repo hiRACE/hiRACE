@@ -395,8 +395,8 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  width: 25vw;
-  height: 15vw;
+  width: calc(25vw + 50px);
+  height: calc(15vw + 50px);
   text-align: center;
   background-color: grey;
   border: 1px solid #ddd;
@@ -416,8 +416,8 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  width: 25vw;
-  height: 15vw; 
+  width: calc(25vw + 50px);
+  height: calc(15vw + 50px); 
   text-align: center;
   background-color: grey;
   border: 1px solid #ddd;
