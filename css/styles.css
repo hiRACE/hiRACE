@@ -237,11 +237,11 @@ p {
 }
 #latest-news.section {
   padding-top: 2rem;
-  padding-right:  4rem;
+  padding-right: 4rem;
 }
 #latest-news h4{
   color: #f8f9fa;
-  font-size: 4vh;
+  font-size: 2rem;
   text-shadow: 2px 2px #000;
   padding-top: 15%;
 }
