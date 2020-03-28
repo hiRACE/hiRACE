@@ -231,7 +231,7 @@ p {
 #home-logo.section {
   letter-spacing: 0.075rem;
   line-height: 1.5;
-  width: 50vw;
+  width: 25vw;
   margin: 0 auto;
 }
 #latest-news.section {
@@ -249,10 +249,9 @@ p {
 }
 #latest-news h4{
   color: #f8f9fa;
-  text-align: center;
+  font-size: 3vh;
   text-shadow: 2px 2px #000;
-  padding-top: 2vh;
-
+  padding-top: 15%;
 }
 /*===Scroll Icon Code Starts Here===*/
 @-webkit-keyframes scroll-down-anim {
