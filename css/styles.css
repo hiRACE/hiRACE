@@ -210,13 +210,14 @@ p {
 }
 #home-content.page-section {
   width: 100%;
-  max-height: calc(100vh - 56px);
+  max-height: calc(100vh - 68px);
   background-image: url("../images/home-background.jpg");
   background-color: rgba(255,255,255,0.2);
   background-blend-mode: darken;
   background-size: cover;
 }
 #home-content img{
+  padding-top: 10%;
   width: 45%;
   min-width: 50px;
 }
@@ -234,7 +235,7 @@ p {
   margin: 0 auto;
 }
 #latest-news.section {
-  width: 20vw;
+  width: 25vw;
   height: 50%;
   min-width: 150px;
   margin-left: auto;
@@ -244,11 +245,11 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1.5vh;
-  width: 20vw;
+  width: 35vw;
 }
 #latest-news h4{
   color: #f8f9fa;
-  font-size: 3vh;
+  text-align: center;
   text-shadow: 2px 2px #000;
   padding-top: 10%;
 
