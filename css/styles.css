@@ -219,26 +219,26 @@ p {
 #home-content img{
   width: 45%;
   min-width: 100px;
-  padding-top: 25%;
+  padding-top: 10vh;
 }
 #home-content h2{
   padding-top: 1rem;
-  font-size:5vh;
+  font-size: 3vh;
   color: #f8f9fa;
   text-shadow: 2px 2px #000;
 }
 #home-logo.section {
   text-align: center;
-  padding: 2rem 6rem;
+  padding: 2rem 4rem;
   letter-spacing: 0.075rem;
   line-height: 1.5;
 }
 #latest-news.section {
-  padding: 8rem;
+  padding: 2rem 4rem;
 }
 #latest-news h4{
   color: #f8f9fa;
-  font-size: 4vh;
+  font-size: 3vh;
   text-shadow: 2px 2px #000;
   padding-top: 15%;
 }
