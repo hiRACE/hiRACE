@@ -102,6 +102,7 @@ p {
   background-color: #f8f9fa;
   height: 100%;
   width: 100%;
+  max-width: 1400px;
 }
 .page-section {
   min-height: calc(100vh - 4.2rem);
@@ -149,13 +150,11 @@ p {
   margin: auto;
   margin-top: 0;
 }
-.third-section img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
+
 .overlaycont {
   position: relative;
   width: 100%;
+  max-width: 450px;
   left: inherit;
 }
 .overlay {
@@ -166,7 +165,7 @@ p {
   right: 0;
   background-color: rgba(0,0,0,0.4);
   overflow: hidden;
-  width: 70%;
+  width: 100%;
   height: 0;
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
@@ -357,8 +356,10 @@ p {
 }
 
 .third-section img{
-  width: 70%;
-  height: 70vh;
+  width: 100%;
+  height: 50vh;*/
+  max-width: 450px;
+  height: auto;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -379,6 +380,7 @@ p {
   display: block;
   width: 100%;
   height: calc(46vh - 4.2rem);
+  filter: grayscale(100%);
 }
 
 
