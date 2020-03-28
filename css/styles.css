@@ -406,8 +406,8 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  width: calc(25vw + 50px);
-  height: calc(15vw + 50px);
+  width: calc(20vw + 20px);
+  height: calc(12.5vw + 20px);
   text-align: center;
   background-color: grey;
   border: 1px solid #ddd;
@@ -427,8 +427,8 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
-  width: calc(25vw + 50px);
-  height: calc(15vw + 50px); 
+  width: calc(20vw + 20px);
+  height: calc(12.5vw + 20px); 
   text-align: center;
   background-color: grey;
   border: 1px solid #ddd;
@@ -440,7 +440,7 @@ p {
   display: inline-block;
 }
 .facilities-list {
-  margin-left: 7.5vw;
+  margin-left: 4vw;
 }
 .toplevel ul {
   text-align: left;
@@ -527,16 +527,16 @@ table th {
     text-align: right;
   }
 
-  table td::before {
-    /*
+  /*table td::before {
+    
     * aria-label has no advantage, it won't be read inside a table
     content: attr(aria-label);
-    */
+    
     content: attr(data-label);
     float: left;
     font-weight: bold;
     text-transform: uppercase;
-  }
+  }*/
 
   table td:last-child {
     border-bottom: 0;
