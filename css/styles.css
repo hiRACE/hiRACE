@@ -217,13 +217,13 @@ p {
   background-size: cover;
 }
 #home-content img{
-  padding-top: 10%;
+  padding-top: 10vh;
   width: 45%;
   min-width: 50px;
 }
 #home-content h2{
-  padding-top: 1rem;
-  font-size:2rem;
+  padding-top: 1vh;
+  font-size:4vh;
   color: #f8f9fa;
   text-shadow: 2px 2px #000;
   text-align: center;
@@ -251,7 +251,7 @@ p {
   color: #f8f9fa;
   text-align: center;
   text-shadow: 2px 2px #000;
-  padding-top: 10%;
+  padding-top: 10vh;
 
 }
 /*===Scroll Icon Code Starts Here===*/
