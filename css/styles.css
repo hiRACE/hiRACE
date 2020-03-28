@@ -139,7 +139,7 @@ p {
 }
 .half-section img {
   max-height: 70vh;
-  width: 50%;
+  width: 75%;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -354,7 +354,7 @@ p {
 }
 #about-img.half-section img {
   max-height: 70vh;
-  width: 50%;
+  width: 75%;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
