@@ -139,7 +139,7 @@ p {
 }
 .half-section img {
   max-height: 70vh;
-  width: 75%;
+  width: 50%;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -224,7 +224,7 @@ p {
 }
 #home-content h2{
   padding-top: 1rem;
-  font-size:3rem;
+  font-size:2rem;
   color: #f8f9fa;
   text-shadow: 2px 2px #000;
   text-align: center;
