@@ -3069,7 +3069,7 @@ input[type="button"].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: rgba(248,249,250);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3241,15 +3241,15 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #f8f9fa;
+  color: rgba(0,0,0,0.9); /*changed by CF*/
   text-decoration: none;
-  background-color: #212529;
+  background-color: rgba(248,249,250); /*changed by CF*/
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #f8f9fa;
+  color: rgba(0,0,0,0.9); /*changed by CF*/
   text-decoration: none;
-  background-color: #007bff;
+  background-color: rgba(248,249,250); /*changed by CF*/
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
