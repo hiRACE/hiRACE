@@ -410,7 +410,7 @@ p {
 }
 /*===========SECTION 7: PEOPLE PAGE STYLES============*/
 .modaltop-img {
-  height: 200px;
+  width: 90%;
   padding-bottom: 5px;
 }
 .modalbottom-img {
