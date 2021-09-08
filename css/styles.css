@@ -205,35 +205,37 @@ p {
   height: 50%;
 }
 .home-section-title h3{
-  color: rgba(0,0,0,0.65);
+  color: rgba(0,0,0,0.8);
   font-size: 2rem;  
 }
 #home-content.page-section {
   width: 100%;
   min-height: calc(100vh - 68px);
-  background-image: url("../images/home-background.jpg");
+  /*background-image: url("../images/home-background.jpg");*/
   background-color: rgba(255,255,255,0.2);
   background-blend-mode: darken;
   background-size: cover;
 }
 #home-content img{
-  width: 45%;
+  width: 25%;
   min-width: 100px;
   padding-top: 10vh;
 }
 #home-content h2{
   padding-top: 1rem;
   font-size: 2.5rem;
-  color: #f8f9fa;
-  text-shadow: 2px 2px #000;
+  color: rgba(0,0,0,0.8);
+  /*text-shadow: 2px 2px #000;*/
+  word-spacing: 7px;
 }
 #home-logo.section {
   max-width: 700px;
   text-align: center;
-  padding-top: 2rem;
-  padding-left: 4rem;
+  padding-top: 10vh;
+  /*padding-left: 4rem;*/
   letter-spacing: 0.075rem;
   line-height: 1.5;
+  margin: auto;
 }
 #latest-news.section {
   padding-top: 2rem;
@@ -247,14 +249,14 @@ p {
 }
 /*===Scroll Icon Code Starts Here===*/
 @-webkit-keyframes scroll-down-anim {
-    0%{ bottom: 4px; }
-    50%{ bottom: 9px; }
-    100%{ bottom: 4px; }
+    0%{ bottom: 1rem; }
+    50%{ bottom: 1.5rem; }
+    100%{ bottom: 1rem; }
 }
 @keyframes scroll-down-anim {
-    0%{ bottom: 4px; }
-    50%{ bottom: 9px; }
-    100%{ bottom: 4px; }
+    0%{ bottom: 1rem; }
+    50%{ bottom: 1.5rem; }
+    100%{ bottom: 1rem; }
 }
 
 .scroll-down{
@@ -279,7 +281,7 @@ p {
     position: absolute;
     left: 50%;
     bottom: 10px;
-    color: #fff;
+    color: rgba(0,0,0,0.8);
     font-size: 15px;
 
     -webkit-animation: scroll-down-anim 1s infinite;
