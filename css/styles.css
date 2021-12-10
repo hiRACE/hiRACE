@@ -19,7 +19,7 @@ html {
 }
 body {
   padding-top: 4.2rem;
-  font-family: "Arial Narrow",Arial,sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   background-color: #f8f9fa;
 }
 
@@ -195,6 +195,13 @@ p {
   font-size: 1.25em;
   
 }
+
+@media (max-width: 768px) {                  
+   .navbar-brand {
+      display: none;
+   }
+}
+
 
 /*===========SECTION 2: HOME PAGE STYLES============*/
 .home-section-title {
@@ -518,4 +525,10 @@ table th {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
+}
+
+@media (max-width: 768px) {                  
+   .news-img {
+      display: none;
+   }
 }
